@@ -1,0 +1,247 @@
+
+
+body{
+    font-family: arial,sans-serif;
+    font-size: small;
+    background: #fff;
+    color: #222;
+}
+
+
+#whitespace{
+    height:70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+}
+
+#inputdiv{
+    display:block;
+}
+
+#searchstuff{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+}
+
+#innersearchstuff{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+#magdiv{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+    
+#magspace{
+    margin:auto;
+    display:block;
+}
+
+#magnifying{
+    display:inline-block;
+    fill:currentColor;
+    margin-top:3px;
+    color:#9aa0a6;
+    height:20px;
+    width:20px;
+    position:relative;
+    line-height:24px;
+    position:relative;
+}
+
+#searchboxformat{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+
+
+.boxforsearch{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display:block;
+}
+
+.typehere{
+
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+
+    text-align: start;
+    appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+#microphonebox{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.insidemicrophonebox{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;   
+}
+
+#microvector{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.buttondiv{
+    display: block;
+    text-align: -webkit-center;
+}
+
+
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+
+.button{
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+    appearance: push-button;
+    white-space: pre;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+#bottomspacer{
+    display: block;
+    bottom: 0;
+    font-size: 10pt;
+    height: 105px;
+    width: 100%;
+    min-width: 400px;
+}
+
+footer{
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    margin-left: -27px;
+    margin-right: -27px;
+    display: block;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    }
+
+.footera{
+    color: #5f6368;
+    display: inline-block;
+    padding: 0px 0px 0px 27px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0 !important;
+}
+
+#rightfooter{
+    display:inline-block;
+    position:relative;
+    text-align:right;
+    float:right;
+    margin-right: 30px;
+    min-width: 30%;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    }
