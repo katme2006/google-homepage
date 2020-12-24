@@ -7,12 +7,9 @@ body{
     color: #222;
 }
 
-
-#whitespace{
-    height:70px;
-    padding-top: 18px;
-    top: 53px;
-    z-index: 0;
+#spacer{
+    height:250px;
+    width:100%;
 }
 
 #inputdiv{
@@ -206,6 +203,13 @@ input {
     min-width: 400px;
 }
 
+#whitespace{
+    height:70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+}
+
 footer{
     font-family: arial,sans-serif;
     font-size: 14px;
@@ -216,7 +220,10 @@ footer{
     margin-left: -27px;
     margin-right: -27px;
     display: block;
-
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
 }
 
 a:hover{
@@ -230,6 +237,7 @@ a:hover{
     text-decoration: none;
     white-space: nowrap;
     margin: 0 !important;
+    
 }
 
 #rightfooter{
