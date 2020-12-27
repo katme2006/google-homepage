@@ -7,10 +7,40 @@ body{
     color: #222;
 }
 
-#spacer{
-    height:250px;
+header{
+    height:300px;
     width:100%;
 }
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navitem{
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+
+
+
+
+
+#logo{
+    display:block;
+    margin: 0 auto;
+    position: relative;
+    top:170px;
+}
+
 
 #inputdiv{
     display:block;
@@ -107,6 +137,8 @@ body{
     appearance: textfield;
     -webkit-rtl-ordering: logical;
     cursor: text;
+
+    min-width:480px;
 }
 
 svg:not(:root) {
